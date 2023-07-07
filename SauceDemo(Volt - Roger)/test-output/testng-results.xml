@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T17:12:10 IST" name="Default suite" finished-at="2023-07-07T17:13:37 IST" duration-ms="87272">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestNGRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" name="runScenario" class="helper.TestNGRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-07T17:12:10 IST" name="Default test" finished-at="2023-07-07T17:13:37 IST" duration-ms="87272">
+      <class name="CucumberRunner.FeatureRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:12:10 IST" name="setUpClass" finished-at="2023-07-07T17:12:10 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:12:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:12:20 IST" duration-ms="10014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Swag labs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checkout to complete order]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:12:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:12:27 IST" duration-ms="6572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add an item to cart, verify checkout option is displayed in cart and click cancel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checkout to complete order]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:12:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:12:27 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click Checkout, do not enter any details and verify error"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checkout to complete order]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:12:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:12:46 IST" duration-ms="18844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter details and checkout and verify details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checkout to complete order]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:12:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:12:52 IST" duration-ms="6423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Swag labs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Remove button to remove item from cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:12:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:13:04 IST" duration-ms="12494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add an item to the cart and verify remove button appears on inventory page for the given item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Remove button to remove item from cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:13:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:13:17 IST" duration-ms="12546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Removing from cart removes option to remove item from inventory page as well"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Remove button to remove item from cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:13:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:13:24 IST" duration-ms="6703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Swag Labs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign In]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:13:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:13:30 IST" duration-ms="6311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Swag labs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add To Cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:13:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:13:36 IST" duration-ms="6362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add an item to cart, verify cart badge count and the item is added to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add To Cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:13:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-07T17:13:37 IST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Click continue shopping on cart page and logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Add To Cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberRunner.FeatureRunner@49b0b76]" started-at="2023-07-07T17:13:37 IST" name="tearDownClass" finished-at="2023-07-07T17:13:37 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberRunner.FeatureRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
